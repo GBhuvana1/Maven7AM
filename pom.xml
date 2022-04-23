@@ -35,13 +35,13 @@ Here we are giving war package format
    <distributionManagement>
         <repository>
             <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://192.168.141.161:8081/repository/cloud/</url>
+            <name> Releases</name>
+            <url>http://192.168.141.157:8081/repository/cloud/</url>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://192.168.141.161:8081/repository/cloud-snap/</url>
+            <name>Internal Snapshot </name>
+            <url>http://192.168.141.157:8081/repository/cloud-snap/</url>
         </snapshotRepository>
     </distributionManagement>
   <dependencies>
